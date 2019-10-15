@@ -76,7 +76,7 @@ void draw() {
 void updateScene() { //Updates scene
   
   world.createEcosystem(isRiver); //Creates ecosystem
-  println(frameCount);
+  //println(frameCount);
   
   for(int i = 0; i < beetles.length; i++) { //Updates beetles
     beetles[i].exist();
