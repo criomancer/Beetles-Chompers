@@ -21,8 +21,10 @@ boolean isRiver = true;
 
 void setup() {
   textAlign(CENTER);
-  size(1900,1000);
-  background(255);
+  //size(1900,1000);
+  fullScreen();
+  
+  background(255); //Loading screen visuals
   textSize(100);
   fill(0);
   text("Loading Beetles and Chompers...", width/2, height/2);
@@ -62,7 +64,7 @@ void draw() {
   String howManyBeetles = "Beetle Count:" + beetles.length;  
   textSize(40);
   fill(0);
-  text(howManyBeetles, 1550, 50);
+  text(howManyBeetles, width*5/6, 50);
   
   
   
